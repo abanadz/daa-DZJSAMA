@@ -81,23 +81,23 @@ fn employ_using_dao() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-# Function to create sub-autonomous entities
-# that operate within the larger DAA ecosystem
-# and generate income
+// Function to create sub-autonomous entities
+// that operate within the larger DAA ecosystem
+// and generate income
 
-# Requirements and Libraries
-- `sub_autonomous_entity` library
+// Requirements and Libraries
+// - `sub_autonomous_entity` library
 
-# Inputs
-- `name`: string, the name of the sub-autonomous entity
-- `description`: string, the description of the sub-autonomous entity
-- `initial_funding`: u64, the initial funding for the sub-autonomous entity
-- `initial_team`: Vec<String>, a list of the initial team members for the sub-autonomous entity
+// Inputs
+// - `name`: string, the name of the sub-autonomous entity
+// - `description`: string, the description of the sub-autonomous entity
+// - `initial_funding`: u64, the initial funding for the sub-autonomous entity
+// - `initial_team`: Vec<String>, a list of the initial team members for the sub-autonomous entity
 
-# Outputs
-- `sub_autonomous_entity`: object, the created sub-autonomous entity
+// Outputs
+// - `sub_autonomous_entity`: object, the created sub-autonomous entity
 
-# Function
+// Function
 fn create_sub_autonomous_entities(name: &str, description: &str, initial_funding: u64, initial_team: Vec<String>) -> Result<SubAutonomousEntity, Box<dyn Error>> {
     // Use the `sub_autonomous_entity` library to create a new sub-autonomous entity
     let sub_autonomous_entity = SubAutonomousEntity::new(name.to_string(), description.to_string(), initial_funding, initial_team)?;
@@ -354,7 +354,7 @@ fn build_daa_iteratively() -> Result<(), Box<dyn Error>> {
         // ...
 
         // Test changes using Rust's built-in testing framework
-        cargo test
+        // cargo test
 
         // Analyze test results and iterate again
         // ...
@@ -647,10 +647,6 @@ fn integrate_with_external_data_sources() -> Result<(), Box<dyn Error>> {
 
 fn implement_decision_making_algorithms() -> Result<(), Box<dyn Error>> {
     // Functionality to implement decision-making algorithms that can analyze different factors and determine the most effective course of action based on the opportunities identified
-}
-
-fn implement_resource_allocation_algorithms() -> Result<(), Box<dyn Error>> {
-    // Functionality to implement resource allocation algorithms that can optimize the use of available resources to capitalize on the opportunities identified
 }
 
 fn implement_resource_allocation_algorithms() -> Result<(), Box<dyn Error>> {
